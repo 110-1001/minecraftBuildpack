@@ -5,7 +5,7 @@
     "games",
     "minecraft"
   ],
-  "repository": "https://github.com/gamer4life1/minecraftBuildpack",
+  "repository": "https://github.com/110-1001/minecraftBuildpack",
   "env": {
     "MINECRAFT_EULA": {
       "description": "Do you accept the Minecraft EULA?",
@@ -20,7 +20,7 @@
       "required": false
     },
     "AWS_BUCKET": {
-      "description": "S3 Bucket to store your server state (you will lose your games when the server restarts if you don't do this)",
+      "description": "S3 Bucket to store your server state",
       "required": false
     },
     "AWS_ACCESS_KEY": {
@@ -30,7 +30,17 @@
     "AWS_SECRET_KEY": {
       "description": "The AWS secret key for the S3 Bucket",
       "required": false
-    }
+    },
+	"NGROK_OPTS": {
+      "description": "The options for configuring NGROK",
+      "required": false
+    },
+	"MINECRAFT_VERSION": {
+      "description": "The options for configuring NGROK",
+      "required": false
+    },
+	
+	
   },
   "buildpacks": [
     {
