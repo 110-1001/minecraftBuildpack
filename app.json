@@ -38,8 +38,7 @@
 	"MINECRAFT_VERSION": {
       "description": "The options for configuring NGROK",
       "required": false
-    },
-	
+    }
 	
   },
   "buildpacks": [
